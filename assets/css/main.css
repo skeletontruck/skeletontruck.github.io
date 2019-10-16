@@ -1519,10 +1519,10 @@
 
 		#banner .left,
 		#banner .right {
-		    position: relative;
+		    position: absolute;
 		    top: 100%;
 		    z-index: 1;
-		    margin-top: -300px;
+		    margin-top: -69px;
 		    padding: 0;
 		}
 		#banner .left {
