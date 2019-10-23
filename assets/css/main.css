@@ -464,7 +464,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #ececec;
+		background: #1c1c1c;
 	}
 
 		#contact form {
@@ -483,7 +483,7 @@
 		}
 
 			#contact .column.social {
-				background: #e6e6e6;
+				background: #1c1c1c;
 			}
 
 			@media screen and (max-width: 980px) {
@@ -751,7 +751,7 @@
 		position: relative;
 		overflow: hidden;
 		min-height: 37em;
-		background-color: #000;
+		background-color: #1c1c1c;
 	}
 
 		@media screen and (max-width: 980px) {
@@ -952,7 +952,15 @@
 
 /* Icon */
 
-.iconify { width: 24px; height: 24px; }
+	.iconify {
+ 		width: 24px;
+ 		height: 24px;
+ 		color: #d88f00;
+ 		text-shadow: 3px 3px 3px #ccc;
+ 	}
+ 	.iconify:hover {
+ 		color: #FFFFFF;
+ 	}
 
 	.icon {
 		text-decoration: none;
@@ -1462,7 +1470,7 @@
 /* Menu */
 
 	#nav {
-		background: #0d1217;
+		background: #1c1c1c;
 		z-index: 10002;
 		position: relative;
 		width: 4em;
@@ -1680,11 +1688,11 @@
 
 	#footer {
 		padding: 4em 0 2em 0;
-		background: #f2f2f2;
+		background: #1c1c1c;
 	}
 
 		#footer .copyright {
-			color: #bfbfbf;
+			color: #fff;
 			font-size: 0.9em;
 			margin: 0 0 2em 0;
 			padding: 0 1em;
