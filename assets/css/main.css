@@ -1319,6 +1319,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
+
 	}
 
 		section .columns.double .column, article .columns.double .column {
@@ -1329,6 +1330,7 @@
 
 				section .columns.double .column, article .columns.double .column {
 					width: 100%;
+
 				}
 
 			}
